@@ -1,0 +1,44 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.profile_img_section{
+    display: flex;
+}
+#twitter{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px ;
+}
+
+#profile__img{
+    justify-content: center;
+}
+#share{
+    position: absolute;
+    right: 0;
+}
+
+#share2{
+    display: none;
+    position: absolute;
+    right: 15%;
+}
+
+#slack{
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    #share{
+        display: none;
+
+    }
+    #share2{
+        display: block;
+    }
+    
+  }

@@ -1,0 +1,16 @@
+.links{
+    margin-top: 40px;
+}
+
+.social__links{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.social__links a{
+    margin-left: 10px;
+}

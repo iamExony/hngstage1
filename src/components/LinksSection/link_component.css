@@ -1,0 +1,34 @@
+.link__component{
+    height: 76px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 18px;
+}
+
+.link__component a{
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #EAECF0;
+    height: 100%;
+}
+
+.link__component a:hover{
+    background-color: #a1a4ac;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .link__component a{
+      
+        font-size: 21px;
+       
+    }
+  }
